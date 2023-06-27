@@ -53,10 +53,17 @@ export const LayoutDashboard = (props: interfProps) => {
                                     </a>
                                     <a
                                         className={`nav-link`}
-                                        href={'/usuarios'}
+                                        href={'/academicos'}
                                     >
                                         <span data-feather="home"></span>
-                                        Usuários
+                                        Academicos
+                                    </a>
+                                    <a
+                                        className={`nav-link`}
+                                        href={'/livros'}
+                                    >
+                                        <span data-feather="home"></span>
+                                        Livros
                                     </a>
                                 </li>
                             </ul>
